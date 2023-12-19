@@ -26,7 +26,7 @@ export default function Home() {
           Hello!
         </h1>
         <h2 id='message'>
-          I&apos;m Ferris. I&apos;m a Front-end Engineer.
+          I&apos;m Ferris. I&apos;m a Front-end / Web Developer living in the Northern Virginia area!
         </h2>
 
 

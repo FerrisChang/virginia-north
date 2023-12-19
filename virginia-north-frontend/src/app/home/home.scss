@@ -24,14 +24,18 @@ section#home {
       grid-row: 5;
       font-family: "Manrope Bold";
       font-size: 63%;
-      width: 100%;
+      width: 61%;
       display: flex;
       justify-content: center;
       align-items: center;
       margin: 20px 30px;
-      padding: 9px 3px;
+      padding: 20px 45px;
+      background-color: rgba(224, 220, 214, 0.679);
+      border-radius: 15px;
+      border-style: ridge;
+      font-size: 100%;
     }
-    @media (min-width:700px) {
+    @media (min-width:1500px) {
       #message {
         font-size: 200%;
       }
@@ -39,11 +43,11 @@ section#home {
 
     .hello {
       font-family: "Maplestory Bold";
-      font-size: 400%;
+      font-size: 600%;
     }
     @media (min-width: 2000px) {
       .hello {
-        font-size: 700%;
+        font-size: 900%;
       }
     }
   }
