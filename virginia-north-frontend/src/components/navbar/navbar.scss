@@ -1,0 +1,51 @@
+#sticky__navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(216, 155, 101, 0.905); /* temporary color will use rgba later */
+  width: 100%;
+  height: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+#logo {
+  margin-left: 38px;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#links {
+  display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 20px;
+    .nav-btn {
+      font-size: 100%;
+      font-weight: 700;
+      margin-right: 15px;
+      a {
+        text-decoration: none
+      }
+      a:visited {
+        color: var(--primary-text-color);
+      }
+      a:hover {
+        color: var(--Secondary-text-color);
+      }
+    }
+    #contactBtn {
+      border: 3px;
+      border-style: solid;
+      border-radius: 20px;
+      padding: 5px 10px;
+    }
+}
+
