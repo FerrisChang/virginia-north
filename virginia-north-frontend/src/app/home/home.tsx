@@ -26,10 +26,8 @@ export default function Home() {
           Hello!
         </h1>
         <h2 id='message'>
-          I&apos;m Ferris, thanks for stopping by to check out my portfolio!
+          I&apos;m Ferris. I&apos;m a Front-end Engineer.
         </h2>
-
-
 
 
         <svg id='text__curve' viewBox="0 -23 600 501">
